@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9BVu1eM3Wk8QpUIwB6N82Abk1lAamPGaU5MBlkQ0rMeYmLC/QsmhfRvzojFXtb7jgrecGBgMOzZJh5rJv3oqJQ==",
+  "dgSpecHash": "a3NN3pOhJnXZhZKy1GLXBvduCnJ28r69hnuvUujcUYEgslJ0U5XQ8sAOxA7xMPED4EkTHm/YuYJaCGDQnM5d6Q==",
   "success": true,
-  "projectFilePath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferna\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

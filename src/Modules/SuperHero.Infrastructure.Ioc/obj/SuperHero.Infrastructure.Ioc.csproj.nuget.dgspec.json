@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj": {}
+    "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj": {}
   },
   "projects": {
-    "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj": {
+    "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj",
+        "projectUniqueName": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj",
         "projectName": "SuperHero.Application",
-        "projectPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj",
-        "packagesPath": "C:\\Users\\foes\\.nuget\\packages\\",
-        "outputPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Application\\obj\\",
+        "projectPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj",
+        "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
+        "outputPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\foes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj": {
-                "projectPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj"
+              "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj": {
+                "projectPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj"
               }
             }
           }
@@ -41,6 +44,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Marraia.Notifications": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,26 +60,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj": {
+    "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj",
+        "projectUniqueName": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj",
         "projectName": "SuperHero.Domain",
-        "projectPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj",
-        "packagesPath": "C:\\Users\\foes\\.nuget\\packages\\",
-        "outputPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\obj\\",
+        "projectPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj",
+        "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
+        "outputPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\foes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,26 +121,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj": {
+    "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj",
+        "projectUniqueName": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj",
         "projectName": "SuperHero.Infrastructure.Ioc",
-        "projectPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj",
-        "packagesPath": "C:\\Users\\foes\\.nuget\\packages\\",
-        "outputPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\obj\\",
+        "projectPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj",
+        "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
+        "outputPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\foes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -135,11 +162,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj": {
-                "projectPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj"
+              "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj": {
+                "projectPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Application\\SuperHero.Application.csproj"
               },
-              "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj": {
-                "projectPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj"
+              "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj": {
+                "projectPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj"
               }
             }
           }
@@ -168,26 +195,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj": {
+    "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj",
+        "projectUniqueName": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj",
         "projectName": "SuperHero.Infrastructure.Repositories",
-        "projectPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj",
-        "packagesPath": "C:\\Users\\foes\\.nuget\\packages\\",
-        "outputPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\obj\\",
+        "projectPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\SuperHero.Infrastructure.Repositories.csproj",
+        "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
+        "outputPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Infrastructure.Repositories\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\foes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,8 +236,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj": {
-                "projectPath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj"
+              "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj": {
+                "projectPath": "F:\\_projetos\\marraia.superhero\\src\\Modules\\SuperHero.Domain\\SuperHero.Domain.csproj"
               }
             }
           }
@@ -214,6 +250,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -224,12 +270,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

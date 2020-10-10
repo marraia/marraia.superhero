@@ -4,18 +4,33 @@ namespace SuperHero.Domain.Entities
 {
     public class Hero
     {
-        public Hero(string name, 
-                    string editor)
+        public Hero(string name,
+            Editor editor,
+            int age)
         {
-            Id = Guid.NewGuid();
             Name = name;
             Editor = editor;
+            Age = age;
             Created = DateTime.Now;
         }
 
-        public Guid Id { get; private set; }
+        public Hero(int id,
+            string name,
+            Editor editor,
+            int age,
+            DateTime created)
+        {
+            SetId(id);
+            Name = name;
+            Editor = editor;
+            Age = age;
+            Created = created;
+        }
+
+        public int Id { get; private set; }
         public string Name { get; private set; }
-        public string Editor { get; private set; }
+        public Editor Editor { get; private set; }
+        public int Age { get; private set; }
         public DateTime Created { get; private set; }
 
         public bool IsValid()
@@ -23,12 +38,23 @@ namespace SuperHero.Domain.Entities
             var valid = true;
 
             if (string.IsNullOrEmpty(Name) ||
-                    string.IsNullOrEmpty(Editor))
+                    Editor.Id <= 0)
             {
                 valid = false;
             }
 
             return valid;
         }
+
+        public bool IsMaiority()
+        {
+            return Age >= 18;
+        }
+
+        public void SetId(int id)
+        {
+            Id = id;
+        }
+
     }
 }

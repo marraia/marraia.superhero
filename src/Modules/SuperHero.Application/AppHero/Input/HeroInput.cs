@@ -3,6 +3,7 @@
     public class HeroInput
     {
         public string Name { get; set; }
-        public string Editor { get; set; }
+        public int IdEditor { get; set; }
+        public int Age { get; set; }
     }
 }

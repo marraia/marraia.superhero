@@ -1,34 +1,150 @@
-﻿using SuperHero.Domain.Entities;
+﻿using Microsoft.Extensions.Configuration;
+using SuperHero.Domain.Entities;
 using SuperHero.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace SuperHero.Infrastructure.Repositories
 {
     public class HeroRepository : IHeroRepository
     {
-        private List<Hero> heroes;
-        public HeroRepository()
+        private readonly IConfiguration _configuration;
+        public HeroRepository(IConfiguration configuration)
         {
-            heroes = new List<Hero>();
+            _configuration = configuration;
         }
         
         public IEnumerable<Hero> Get()
         {
-            return heroes.ToList();
+            try
+            {
+                using (var con = new SqlConnection(_configuration["ConnectionString"]))
+                {
+                    var heroList = new List<Hero>();
+                    var sqlCmd = @"SELECT H.Id, 
+                                           H.Name, 
+                                           E.Id as IdEditor,
+                                           E.Name as Editor, 
+                                           H.Age, 
+                                           H.Created 
+                                        FROM HERO H
+                                    JOIN EDITOR E ON H.IdEditor = E.Id";
+
+                    using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
+                    {
+                        cmd.CommandType = CommandType.Text;
+                        con.Open();
+
+                        var reader =  cmd.ExecuteReader();
+
+                        while (reader.Read())
+                        {
+                            var hero = new Hero(int.Parse(reader["id"].ToString()),
+                                                reader["Name"].ToString(),
+                                                new Editor(int.Parse(reader["idEditor"].ToString()), reader["Editor"].ToString()),
+                                                int.Parse(reader["Age"].ToString()),
+                                                DateTime.Parse(reader["Created"].ToString()));
+
+                            heroList.Add(hero);
+                        }
+
+                        return heroList;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
-        public Hero GetById(Guid id)
+        public async Task<Hero> GetByIdAsync(int id)
         {
-            return heroes
-                    .Where(filter => filter.Id == id)
-                    .FirstOrDefault();
-        }
+            try
+            {
+                using (var con = new SqlConnection(_configuration["ConnectionString"]))
+                {
+                    var sqlCmd = $@"SELECT H.Id, 
+                                           H.Name, 
+                                           E.Id as IdEditor,
+                                           E.Name as Editor, 
+                                           H.Age, 
+                                           H.Created 
+                                        FROM HERO H
+                                    JOIN EDITOR E ON H.IdEditor = E.Id
+                                    WHERE H.Id={id}" ;
 
-        public void Insert(Hero hero)
+                    using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
+                    {
+                        cmd.CommandType = CommandType.Text;
+                        con.Open();
+
+                        var reader = await cmd
+                                            .ExecuteReaderAsync()
+                                            .ConfigureAwait(false);
+
+                        while (reader.Read())
+                        {
+                            var hero = new Hero(int.Parse(reader["id"].ToString()),
+                                                reader["Name"].ToString(),
+                                                new Editor(int.Parse(reader["idEditor"].ToString()), reader["Editor"].ToString()),
+                                                int.Parse(reader["Age"].ToString()),
+                                                DateTime.Parse(reader["Created"].ToString()));
+
+                            return hero;
+                        }
+
+                        return default;
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+    
+
+        public int Insert(Hero hero)
         {
-            heroes.Add(hero);
+            try
+            {
+                using (var con = new SqlConnection(_configuration["ConnectionString"]))
+                {
+                    var sqlCmd = @"INSERT INTO 
+                                  HERO (Name, 
+                                        IdEditor, 
+                                        Age, 
+                                        Created) 
+                               VALUES (@name, 
+                                        @editor,
+                                        @age, 
+                                        @created); SELECT scope_identity();";
+
+                    using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
+                    {
+                        cmd.CommandType = CommandType.Text;
+
+                        cmd.Parameters.AddWithValue("name", hero.Name);
+                        cmd.Parameters.AddWithValue("editor", hero.Editor.Id);
+                        cmd.Parameters.AddWithValue("age", hero.Age);
+                        cmd.Parameters.AddWithValue("created", hero.Created);
+
+                        con.Open();
+                        var id = cmd.ExecuteScalar();
+
+                        return int.Parse(id.ToString());
+                    }
+                }
+            }
+            catch(SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }
