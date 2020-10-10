@@ -1,0 +1,60 @@
+/*CREATE DATABASE SuperHero;
+use SuperHero;*/
+
+/*DROP TABLE [dbo].[Hero]*/
+
+/*
+CREATE TABLE [dbo].[Hero] (
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+    [IdEditor] [int] NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+	[Age] [int] NOT NULL,
+    [Created] DateTime NOT NULL
+)*/
+
+/*CREATE TABLE [dbo].[Editor] (
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+    CONSTRAINT PK_Editor_Id PRIMARY KEY CLUSTERED (Id)
+)*/
+
+/*ALTER TABLE [dbo].[Hero]
+   ADD CONSTRAINT PK_Hero_Id PRIMARY KEY CLUSTERED (Id);*/
+
+  /* ALTER TABLE [dbo].[Hero]
+   ADD CONSTRAINT FK_Hero_Editor FOREIGN KEY (IdEditor)
+      REFERENCES [dbo].[Editor] (Id)/*
+
+
+/*CREATE TABLE Production.TransactionHistoryArchive1
+(
+    TransactionID int IDENTITY (1,1) NOT NULL
+    , CONSTRAINT PK_TransactionHistoryArchive_TransactionID PRIMARY KEY CLUSTERED (TransactionID)
+)*/
+
+INSERT INTO 
+    Editor (Name)
+VALUES ('Marvel')
+
+
+INSERT INTO 
+    HERO (Name, IdEditor, Age, Created)
+VALUES ('Homem de Ferro', 1, 40, getdate())
+
+SELECT * 
+    FROM HERO 
+WHERE Created BETWEEN '2020-10-10 16:45:00' 
+                    and '2020-10-10 16:46:59'
+
+UPDATE HERO 
+    SET Name='Batman', Editor='DC'
+WHERE Id = 1
+
+DELETE 
+    FROM Hero
+WHERE Id = 1
+
+
+SELECT H.Name AS NomeHeroi, E.Name AS NomeEditora
+    FROM HERO H
+    JOIN EDITOR E ON H.IdEditor = E.Id
