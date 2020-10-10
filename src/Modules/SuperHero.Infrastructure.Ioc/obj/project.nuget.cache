@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "30TDXMb6lg0aE2HabuglW4oNU1u7mU7wmKsMOLi0f3LWFd2raeh989WNpEyhEnGNnY1cN1Lr8EfuAx4YT2CYKw==",
+  "success": true,
+  "projectFilePath": "C:\\_test\\SuperHero\\src\\Modules\\SuperHero.Infrastructure.Ioc\\SuperHero.Infrastructure.Ioc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

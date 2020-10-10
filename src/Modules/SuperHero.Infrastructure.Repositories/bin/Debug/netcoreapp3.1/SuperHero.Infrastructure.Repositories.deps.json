@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SuperHero.Infrastructure.Repositories/1.0.0": {
+        "dependencies": {
+          "SuperHero.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SuperHero.Infrastructure.Repositories.dll": {}
+        }
+      },
+      "SuperHero.Domain/1.0.0": {
+        "runtime": {
+          "SuperHero.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SuperHero.Infrastructure.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperHero.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

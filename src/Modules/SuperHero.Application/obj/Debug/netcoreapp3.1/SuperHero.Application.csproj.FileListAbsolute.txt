@@ -1,0 +1,12 @@
+C:\_test\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Application.deps.json
+C:\_test\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Application.dll
+C:\_test\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Application.pdb
+C:\_test\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Domain.dll
+C:\_test\SuperHero\src\Modules\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHero.Domain.pdb
+C:\_test\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.csprojAssemblyReference.cache
+C:\_test\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.AssemblyInfoInputs.cache
+C:\_test\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.AssemblyInfo.cs
+C:\_test\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.csproj.CoreCompileInputs.cache
+C:\_test\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.csproj.CopyComplete
+C:\_test\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.dll
+C:\_test\SuperHero\src\Modules\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHero.Application.pdb

@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SuperHero.Infrastructure.Ioc/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
+          "SuperHero.Application": "1.0.0",
+          "SuperHero.Infrastructure.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "SuperHero.Infrastructure.Ioc.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.8": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42004"
+          }
+        }
+      },
+      "SuperHero.Application/1.0.0": {
+        "dependencies": {
+          "SuperHero.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SuperHero.Application.dll": {}
+        }
+      },
+      "SuperHero.Domain/1.0.0": {
+        "runtime": {
+          "SuperHero.Domain.dll": {}
+        }
+      },
+      "SuperHero.Infrastructure.Repositories/1.0.0": {
+        "dependencies": {
+          "SuperHero.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SuperHero.Infrastructure.Repositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SuperHero.Infrastructure.Ioc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YP0kEBkSLTVl3znqZEux+xyJpz5iVNwFZf0OPS7nupdKbojSlO7Fa+JuQjLYpWfpAshaMcznu27tjWzfXRJnOA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.8",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512"
+    },
+    "SuperHero.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperHero.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperHero.Infrastructure.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

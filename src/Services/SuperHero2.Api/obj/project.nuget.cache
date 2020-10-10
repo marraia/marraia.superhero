@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YdPkIFdp3oL39JfjVJzQeskf75kRIPWAe/EdGANoELKFcSBuXznt3kEuoNvzZBWw3siyHPC9I68g1mTj89KNUw==",
+  "success": true,
+  "projectFilePath": "C:\\_test\\SuperHero\\src\\Services\\SuperHero2.Api\\SuperHero2.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\foes\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
