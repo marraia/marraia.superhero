@@ -40,6 +40,7 @@ namespace SuperHero2.Api.Controllers
         [HttpGet] //api/hero
         [ProducesResponseType(typeof(string), 200)]
         [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
         [ProducesResponseType(500)]
         public IActionResult Get()
         {
@@ -50,6 +51,7 @@ namespace SuperHero2.Api.Controllers
         [Route("{id}")]
         [ProducesResponseType(typeof(string), 200)]
         [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
         [ProducesResponseType(500)]
         public async Task<IActionResult> Get([FromRoute] int id)
         {

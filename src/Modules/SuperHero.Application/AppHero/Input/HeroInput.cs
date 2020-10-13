@@ -1,4 +1,6 @@
-﻿namespace SuperHero.Application.AppHero.Input
+﻿using System.Collections.Generic;
+
+namespace SuperHero.Application.AppHero.Input
 {
     public class HeroInput
     {

@@ -40,8 +40,6 @@ F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.csprojAssemblyReference.cache
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.AssemblyInfoInputs.cache
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.AssemblyInfo.cs
-F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.csproj.CoreCompileInputs.cache
-F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.MvcApplicationPartsAssemblyInfo.cache
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.RazorTargetAssemblyInfo.cache
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.csproj.CopyComplete
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.dll
@@ -64,7 +62,6 @@ F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.MvcApplicationPartsAssemblyInfo.cs
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
@@ -73,3 +70,10 @@ F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.csproj.CoreCompileInputs.cache
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.MvcApplicationPartsAssemblyInfo.cs
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.MvcApplicationPartsAssemblyInfo.cache
