@@ -133,3 +133,10 @@ C:\_test\SuperHero\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netco
 C:\_test\SuperHero\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.csproj.CoreCompileInputs.cache
 C:\_test\SuperHero\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\_test\SuperHero\marraia.superhero\src\Services\SuperHero2.Api\obj\Debug\netcoreapp3.1\SuperHero2.Api.MvcApplicationPartsAssemblyInfo.cache
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\_projetos\marraia.superhero\src\Services\SuperHero2.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

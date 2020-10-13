@@ -68,7 +68,7 @@ CREATE TABLE [dbo].[Profile] (
 )*/
 
 /*
-CREATE TABLE [dbo].[User] (
+CREATE TABLE [dbo].[Users] (
 	[Id] [int] IDENTITY(1,1) NOT NULL,
     [IdProfile] [int] NOT NULL,
 	[Name] [varchar](50) NOT NULL,
@@ -77,6 +77,13 @@ CREATE TABLE [dbo].[User] (
     [Created] DateTime NOT NULL
 )*/
 
-  /* ALTER TABLE [dbo].[User]
-		ADD CONSTRAINT FK_User_Profile FOREIGN KEY (IdProfile)
+  /* ALTER TABLE [dbo].[Users]
+		ADD CONSTRAINT FK_Users_Profile FOREIGN KEY (IdProfile)
       REFERENCES [dbo].[Profile] (Id)/*
+
+
+INSERT INTO 
+    Profile (Description)
+VALUES ('Produtor')
+
+SELECT * FROM dbo.Users

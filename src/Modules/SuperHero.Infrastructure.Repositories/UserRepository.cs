@@ -28,9 +28,9 @@ namespace SuperHero.Infrastructure.Repositories
                                            U.Password,
                                            P.Id as idProfile,
                                            P.Description 
-                                        FROM USER U
+                                        FROM USERS U
                                     JOIN PROFILE P ON U.idProfile = P.Id
-                                    WHERE U.login='%{login}%'";
+                                    WHERE U.login='{login}'";
 
                     using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
                     {
@@ -48,7 +48,7 @@ namespace SuperHero.Infrastructure.Repositories
                                                 new Profile(int.Parse(reader["idProfile"].ToString()), 
                                                             reader["Description"].ToString()));
 
-                            user.InformationLoginUser(reader["Name"].ToString(), reader["Name"].ToString());
+                            user.InformationLoginUser(reader["Login"].ToString(), reader["Password"].ToString());
                             return user;
                         }
 
@@ -74,7 +74,7 @@ namespace SuperHero.Infrastructure.Repositories
                                            U.Password,
                                            P.Id as idProfile,
                                            P.Description 
-                                        FROM USER U
+                                        FROM USERS U
                                     JOIN PROFILE P ON U.idProfile = P.Id
                                     WHERE U.Id='%{id}%'";
 
@@ -115,7 +115,7 @@ namespace SuperHero.Infrastructure.Repositories
                 using (var con = new SqlConnection(_configuration["ConnectionString"]))
                 {
                     var sqlCmd = @"INSERT INTO 
-                                    USER (IdProfile,
+                                    USERS (IdProfile,
                                             Name, 
                                             Login, 
                                             Password, 
@@ -157,7 +157,7 @@ namespace SuperHero.Infrastructure.Repositories
             {
                 using (var con = new SqlConnection(_configuration["ConnectionString"]))
                 {
-                    var sqlCmd = @"UPDATE USER  
+                    var sqlCmd = @"UPDATE USERS 
                                     SET (IdProfile,
                                             Name, 
                                             Login, 

@@ -7,13 +7,13 @@ namespace SuperHero.Application.AppUser.Output
     {
         public UserViewModel(int id,
                                 string login,
-                                string nome,
+                                string name,
                                 Profile profile,
                                 DateTime created)
         {
             Id = id;
             Login = login;
-            Name = Name;
+            Name = name;
             Profile = profile;
             Created = created;
         }

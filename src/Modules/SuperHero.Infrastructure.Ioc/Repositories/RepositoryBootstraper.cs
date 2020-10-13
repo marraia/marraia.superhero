@@ -1,9 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using SuperHero.Domain.Interfaces.Repositories;
 using SuperHero.Infrastructure.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SuperHero.Infrastructure.Ioc.Repositories
 {
@@ -12,6 +9,8 @@ namespace SuperHero.Infrastructure.Ioc.Repositories
         internal void ChildServiceRegister(IServiceCollection services)
         {
             services.AddScoped<IHeroRepository, HeroRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IProfileRepository, ProfileRepository>();
         }
     }
 }

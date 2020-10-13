@@ -6,6 +6,8 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
 using Marraia.Notifications.Base;
+using Marraia.Notifications.Handlers;
+using Marraia.Notifications.Interfaces;
 using Marraia.Notifications.Models;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -25,6 +27,7 @@ namespace SuperHero2.Api.Controllers
     {
         private readonly ILoginAppService _loginAppService;
         private readonly IConfiguration _configuration;
+        private readonly DomainNotificationHandler _smartNotification;
 
         public LoginController(INotificationHandler<DomainNotification> notification,
             ILoginAppService loginAppService,
@@ -33,6 +36,7 @@ namespace SuperHero2.Api.Controllers
         {
             _loginAppService = loginAppService;
             _configuration = configuration;
+            _smartNotification = (DomainNotificationHandler)notification;
         }
 
         [AllowAnonymous]
@@ -85,8 +89,9 @@ namespace SuperHero2.Api.Controllers
                         message = "OK"
                     };
                 }
+                
 
-                return OkOrNoContent(logged);
+                return Unauthorized(_smartNotification.GetNotifications());
             }
             catch (Exception ex)
             {
