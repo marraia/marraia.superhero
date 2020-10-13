@@ -25,7 +25,7 @@ namespace SuperHero2.Api.Controllers
             _heroAppService = heroAppService;
         }
 
-        [Authorize(Roles = "Produtor")]
+        [Authorize]
         [HttpPost]
         [ProducesResponseType(typeof(string), 201)]
         [ProducesResponseType(400)]
