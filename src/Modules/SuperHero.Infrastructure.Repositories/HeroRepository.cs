@@ -91,7 +91,8 @@ namespace SuperHero.Infrastructure.Repositories
                         {
                             var hero = new Hero(int.Parse(reader["id"].ToString()),
                                                 reader["Name"].ToString(),
-                                                new Editor(int.Parse(reader["idEditor"].ToString()), reader["Editor"].ToString()),
+                                                new Editor(int.Parse(reader["idEditor"].ToString()), 
+                                                            reader["Editor"].ToString()),
                                                 int.Parse(reader["Age"].ToString()),
                                                 DateTime.Parse(reader["Created"].ToString()));
 

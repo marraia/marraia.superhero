@@ -16,3 +16,12 @@ F:\_projetos\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp
 F:\_projetos\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.csproj.CoreCompileInputs.cache
 F:\_projetos\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.dll
 F:\_projetos\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.pdb
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\bin\Debug\netcoreapp3.1\SuperHero.Domain.deps.json
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\bin\Debug\netcoreapp3.1\SuperHero.Domain.dll
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\bin\Debug\netcoreapp3.1\SuperHero.Domain.pdb
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.csprojAssemblyReference.cache
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.AssemblyInfoInputs.cache
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.AssemblyInfo.cs
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.csproj.CoreCompileInputs.cache
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.dll
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Domain\obj\Debug\netcoreapp3.1\SuperHero.Domain.pdb

@@ -22,3 +22,15 @@ F:\_projetos\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories
 F:\_projetos\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.dll
 F:\_projetos\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.pdb
 F:\_projetos\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csproj.CoreCompileInputs.cache
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.deps.json
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.dll
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.pdb
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Domain.dll
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\SuperHero.Domain.pdb
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csprojAssemblyReference.cache
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.AssemblyInfoInputs.cache
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.AssemblyInfo.cs
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csproj.CoreCompileInputs.cache
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.csproj.CopyComplete
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.dll
+C:\_test\SuperHero\marraia.superhero\src\Modules\SuperHero.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\SuperHero.Infrastructure.Repositories.pdb
