@@ -58,3 +58,25 @@ WHERE Id = 1
 SELECT H.Name AS NomeHeroi, E.Name AS NomeEditora
     FROM HERO H
     JOIN EDITOR E ON H.IdEditor = E.Id
+	
+	
+/*
+CREATE TABLE [dbo].[Profile] (
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Description] [varchar](50) NOT NULL,
+	CONSTRAINT PK_Profile_Id PRIMARY KEY CLUSTERED (Id)
+)*/
+
+/*
+CREATE TABLE [dbo].[User] (
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+    [IdProfile] [int] NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+	[Login] [varchar](50) NOT NULL,
+	[Password] [varchar](255) NOT NULL,
+    [Created] DateTime NOT NULL
+)*/
+
+  /* ALTER TABLE [dbo].[User]
+		ADD CONSTRAINT FK_User_Profile FOREIGN KEY (IdProfile)
+      REFERENCES [dbo].[Profile] (Id)/*
