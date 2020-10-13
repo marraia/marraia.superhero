@@ -59,7 +59,7 @@ namespace SuperHero2.Api.Controllers
                         new GenericIdentity(logged.Login, "Login"),
                         new[] {
                         new Claim(JwtRegisteredClaimNames.Jti, logged.Id.ToString()),
-                        new Claim("Profile", logged.Profile.Description),
+                        new Claim(ClaimTypes.Role, logged.Profile.Description),
                         new Claim("IdProfile", logged.Profile.Id.ToString()),
                         new Claim("NameUser", logged.Name)
                         }

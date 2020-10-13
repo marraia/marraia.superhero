@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Marraia.Notifications.Base;
 using Marraia.Notifications.Models;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SuperHero.Application.AppHero.Input;
@@ -24,6 +25,7 @@ namespace SuperHero2.Api.Controllers
             _heroAppService = heroAppService;
         }
 
+        [Authorize(Roles = "Produtor")]
         [HttpPost]
         [ProducesResponseType(typeof(string), 201)]
         [ProducesResponseType(400)]
