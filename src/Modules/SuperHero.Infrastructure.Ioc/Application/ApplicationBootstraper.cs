@@ -14,8 +14,6 @@ namespace SuperHero.Infrastructure.Ioc.Application
         internal void ChildServiceRegister(IServiceCollection services)
         {
             services.AddScoped<IHeroAppService, HeroAppService>();
-            services.AddScoped<IUserAppService, UserAppService>();
-            services.AddScoped<ILoginAppService, LoginAppService>();
         }
     }
 }

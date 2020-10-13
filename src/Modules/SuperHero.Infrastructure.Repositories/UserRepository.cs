@@ -76,7 +76,7 @@ namespace SuperHero.Infrastructure.Repositories
                                            P.Description 
                                         FROM USERS U
                                     JOIN PROFILE P ON U.idProfile = P.Id
-                                    WHERE U.Id='%{id}%'";
+                                    WHERE U.Id='{id}'";
 
                     using (SqlCommand cmd = new SqlCommand(sqlCmd, con))
                     {
