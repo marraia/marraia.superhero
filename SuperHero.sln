@@ -13,19 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{C1D7036B-2348-4058-ACD0-672BC5D1860A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Domain", "src\Modules\SuperHero.Domain\SuperHero.Domain.csproj", "{9EDAB78B-902C-4A2D-9F5A-76F7A8D689E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperHero.Domain", "src\Modules\SuperHero.Domain\SuperHero.Domain.csproj", "{9EDAB78B-902C-4A2D-9F5A-76F7A8D689E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Infrastructure.Repositories", "src\Modules\SuperHero.Infrastructure.Repositories\SuperHero.Infrastructure.Repositories.csproj", "{13BC3B16-0BF1-47A2-BD8C-86967AF6C5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperHero.Infrastructure.Repositories", "src\Modules\SuperHero.Infrastructure.Repositories\SuperHero.Infrastructure.Repositories.csproj", "{13BC3B16-0BF1-47A2-BD8C-86967AF6C5F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Repositories", "3.1 - Repositories", "{FEC51374-764F-4702-8CEB-C8C926E95FE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Application", "src\Modules\SuperHero.Application\SuperHero.Application.csproj", "{821B16F7-7D07-4BB5-B939-49775FB17637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperHero.Application", "src\Modules\SuperHero.Application\SuperHero.Application.csproj", "{821B16F7-7D07-4BB5-B939-49775FB17637}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - IoC", "3.2 - IoC", "{8A5EDB39-6844-4D76-8945-F64D50BD5F83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Infrastructure.Ioc", "src\Modules\SuperHero.Infrastructure.Ioc\SuperHero.Infrastructure.Ioc.csproj", "{DDB35D1B-B714-4590-8F5C-BADBE25E1114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperHero.Infrastructure.Ioc", "src\Modules\SuperHero.Infrastructure.Ioc\SuperHero.Infrastructure.Ioc.csproj", "{DDB35D1B-B714-4590-8F5C-BADBE25E1114}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero2.Api", "src\Services\SuperHero2.Api\SuperHero2.Api.csproj", "{377387F7-B821-4475-B6CD-D78D15A80E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperHero2.Api", "src\Services\SuperHero2.Api\SuperHero2.Api.csproj", "{377387F7-B821-4475-B6CD-D78D15A80E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHero.Tests", "src\Modules\SuperHero.Tests\SuperHero.Tests.csproj", "{5826DF33-D5E1-4345-B8A9-1A06ACE4FD04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{377387F7-B821-4475-B6CD-D78D15A80E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{377387F7-B821-4475-B6CD-D78D15A80E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{377387F7-B821-4475-B6CD-D78D15A80E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5826DF33-D5E1-4345-B8A9-1A06ACE4FD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5826DF33-D5E1-4345-B8A9-1A06ACE4FD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5826DF33-D5E1-4345-B8A9-1A06ACE4FD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5826DF33-D5E1-4345-B8A9-1A06ACE4FD04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{8A5EDB39-6844-4D76-8945-F64D50BD5F83} = {C4E4A2ED-5651-44E1-A4D4-FE94FC33F4CF}
 		{DDB35D1B-B714-4590-8F5C-BADBE25E1114} = {8A5EDB39-6844-4D76-8945-F64D50BD5F83}
 		{377387F7-B821-4475-B6CD-D78D15A80E73} = {49B77E60-2783-441D-8FE5-FE0AF3025D53}
+		{5826DF33-D5E1-4345-B8A9-1A06ACE4FD04} = {C1D7036B-2348-4058-ACD0-672BC5D1860A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3F48770-F1E6-4DD4-960C-DE41BBCB8EFC}
